@@ -1,4 +1,4 @@
-# PHPRise [Atomic Repository]
+# {{PROJECT_NAME}}
 
 The Atomic Repository is the smallest possible unit of granularity.
 It enforces a strict architectural boundary through the following rules:
@@ -16,8 +16,10 @@ It enforces a strict architectural boundary through the following rules:
 
 ## Installation
 
+To create a new Atomic Repository using this template:
+
 ```bash
-composer require phprise/atomic-repository-template
+composer create-project otaku/atomic <project-name>
 ```
 
 ## Usage

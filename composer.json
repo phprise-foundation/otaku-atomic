@@ -1,7 +1,7 @@
 {
-    "name": "phprise/atomic-repository-template",
+    "name": "otaku/atomic",
     "description": "This is an Atomic Repository template based on the OTAKU Manifesto.",
-    "type": "library",
+    "type": "project",
     "require": {
         "php": "^8.4"
     },
@@ -21,5 +21,10 @@
             "email": "esdras.schonevald@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "scripts": {
+        "post-create-project-cmd": [
+            "php bin/setup.php"
+        ]
+    }
 }
