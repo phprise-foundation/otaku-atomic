@@ -1,0 +1,5 @@
+# Atomic Repositories
+# The smallest possible unit of granularity.
+# 1. Structure: Flat. Only one level of directory inside src/.
+# 2. Rule: No subdivisions. It fulfills a single, specific contract.
+# 3. Purpose: Reusability and strict isolation of logic.

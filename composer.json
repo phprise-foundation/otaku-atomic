@@ -1,0 +1,25 @@
+{
+    "name": "phprise/atomic-repository-template",
+    "description": "This is an Atomic Repository template based on the OTAKU Manifesto.",
+    "type": "library",
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5",
+        "vimeo/psalm": "^6.14"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phprise\\AtomicTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Esdras Schonevald",
+            "email": "esdras.schonevald@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
