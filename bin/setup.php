@@ -23,6 +23,8 @@ $replacements = [
     'otaku/atomic' => $projectName,
     'otaku/assembly' => $projectName,
     'otaku/application' => $projectName,
+    'composer create-project otaku/atomic <project-name>' => 'composer require ' . $projectName,
+    'To create a new Atomic Repository using this template:' => 'Install the package via composer:',
 ];
 
 $filesToProcess = [
@@ -30,6 +32,7 @@ $filesToProcess = [
     'README.md',
     'PHILOSOPHY.md',
     'GITFLOW.md',
+    'CONTRIBUTING.md',
 ];
 
 // Add src and tests files
