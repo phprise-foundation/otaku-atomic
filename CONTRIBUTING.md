@@ -20,7 +20,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Pull Requests
 
-1. Fork the repo and follow the [Gitflow](GITFLOW.md).
+1. Fork the repo and follow the [Gitflow](docs/GITFLOW.md).
 2. **Atomic Focus**: Ensure your changes fulfill a single, specific contract.
 3. **Flat Structure**: Do not create subdirectories in `src/`.
 4. **Testing**: Unit tests are mandatory for all logic changes.

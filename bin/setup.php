@@ -25,6 +25,7 @@ $replacements = [
     'otaku/application' => $projectName,
     'composer create-project ' . $projectName . ' <project-name>' => 'composer require ' . $projectName,
     'To create a new Atomic Repository using this template:' => 'Install the package via composer:',
+    '"type": "project",' => '"type": "library",',
 ];
 
 $filesToProcess = [
