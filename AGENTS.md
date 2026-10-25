@@ -1,7 +1,7 @@
 # AGENTS.md
 
-> **Before you start:** read [`docs/PHILOSOPHY.md`](docs/PHILOSOPHY.md) — it holds
-> the unbreakable rules. For how to apply a rule, see [`docs/GUIDE.md`](docs/GUIDE.md).
+> **Before you start:** read [OTAKU Manifesto](https://otakumanifesto.org/manifesto/) — it holds
+> the unbreakable rules. For how to apply a rule, see [OTAKU Guide](https://otakumanifesto.org/guide/).
 > For any git operation, see [`docs/GITFLOW.md`](docs/GITFLOW.md).
 
 ## What this project is
@@ -12,7 +12,7 @@ single, specific contract, with a flat structure (one level of directories insid
 
 ## Code rules (non-negotiable)
 
-The 9 Object Calisthenics rules of [`docs/PHILOSOPHY.md`](docs/PHILOSOPHY.md) are
+The 9 Object Calisthenics rules of [OTAKU Manifesto](https://otakumanifesto.org/manifesto/) are
 mandatory. In short:
 
 1. One level of indentation per method.
